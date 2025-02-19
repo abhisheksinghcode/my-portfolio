@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek singh --portfolio!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,
+400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(3, 3, 60);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 96);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      nav ul li:hover {
+        transform: scale(1.5);
+        color: rgb(53, 69, 250);
+      }
+      .left {
+        font-size: 1.9rem;
+        font-family: "Times New Roman", Times, serif;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 3rem;
+        width: 50%;
+      }
+      .leftsection .button {
+        padding: 23px;
+      }
+      .leftsection .btn {
+        color: white;
+        padding: 12px;
+        background-color: rgb(37, 24, 125);
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightsection {
+        width: 50%;
+      }
+      .purple {
+        color: rgb(161, 0, 194);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(161, 0, 194);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 60vw;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .secondsection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        margin-bottom: 0 ;
+        display: flex;
+      }
+      .secondsection .vertical {
+        display: inline-block;
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -30px;
+        left: -9px;
+      }
+      .vertical-title {
+        display: flex;
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(18, 20, 28);
+        
+        padding: 10px;
+      }
+      .footer {
+        display: flex;
+        margin: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style-type: none;
+      }
+      .footer > div {
+        width: 123px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhishek singh</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">services</a></li>
+          <li><a href="/">project</a></li>
+          <li><a href="/">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          hy, my name is <span class="purple">Abhi</span>
+          <div>and i am a passionate</div>
+          <div>web devloper</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download resume</button>
+            <button class="btn" onclick="window.location.href='https://www.github.com/abhisheksinghcode' , '_blank'" >Visit GitHub</button>
+
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" width="80%" margin="0% 10%" alt="image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">what i have done! so far</span>
+        <h1>work experience</h1>
+        <div class="box"></div>
+        <div class="vertical">
+          <img class="image-top" src="devloper.png" alt="" />
+          <div class="vertical-title">HTML devloper (2010-2012)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quidem, voluptates, quod, quos quae quia quibusdam dolorum
+            consequuntur
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="insta.png" alt="" />
+          <div class="vertical-title">instagram devloper (2012-2014)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quidem, voluptates, quod, quos quae quia quibusdam dolorum
+            consequuntur
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="facebook.png" alt="" />
+          <div class="vertical-title">java devloper (2010-2012)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quidem, voluptates, quod, quos quae quia quibusdam dolorum
+            consequuntur
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="twitter.png" alt="" />
+          <div class="vertical-title">full stack devloper (2010-2012)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quidem, voluptates, quod, quos quae quia quibusdam dolorum
+            consequuntur
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="devloper.png" alt="" />
+          <div class="vertical-title">marn stack devloper (2010-2012)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quidem, voluptates, quod, quos quae quia quibusdam dolorum
+            consequuntur
+          </div>
+        </div>
+      </section>
+    </main>
+     <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>devloper Abhishek portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact us</li>
+            <li>service</li>
+            <li>project</li>
+          </ul>
+        </div>
+        <div class="footer-third"><ul>
+          <li>home</li>
+          <li>about</li>
+          <li>contact us</li>
+          <li>service</li>
+          <li>project</li>
+        </ul>
+      </div>
+        <div class="footer-fourth"><ul>
+          <li>home</li>
+          <li>about</li>
+          <li>contact us</li>
+          <li>service</li>
+          <li>project</li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer-rights">
+        copyright &#169; www.portfolioAbhishek.com ! All rights reserved
+      </div>
+     </footer>
+     <script>
+      function openInNewTab() {
+        window.open('https://www.github.com/abhisheksinghcode', '_blank');
+      }
+    </script>
+    <!-- Typed.js CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web devloper.",
+          " graphic designer.",
+          "web designer",
+          "full stack devloper",
+        ],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+</html>
